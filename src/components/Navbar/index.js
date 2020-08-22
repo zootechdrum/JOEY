@@ -9,10 +9,10 @@ function Navbar() {
     <nav className="navbar">
       <h1>JOEY</h1>
       <div>
-        <Link class="link">home</Link>
-        <Link class="link">work</Link>
-        <Link class="link">about</Link>
-        <Link class="link">contact</Link>
+        <Link class="link" to="/">home</Link>
+        <Link class="link" to="/">work</Link>
+        <Link class="link" to="/">about</Link>
+        <Link class="link" to="/">contact</Link>
       </div>
     </nav>
   );

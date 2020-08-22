@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Lyrics to Go",
+        "image": "./images/lyrics-thumb.png"
+    },
+    {
+        "id": 2,
+        "name": "Tuk Tuk Travel Blog",
+        "image": "./images/tuktuk-thumb.png"
+    },
+    {
+        "id": 3,
+        "name": "Hive Employee Directory",
+        "image": "./images/hive-thumb.png"
+    },
+    {
+        "id": 4,
+        "name": "Char Burger Blog",
+        "image": "./images/char-thumb.png"
+    },
+    {
+        "id": 5,
+        "name": "Dewey Web Dev Resources",
+        "image": "./images/test-thumb.png"
+    },
+    {
+        "id": 6,
+        "name": "Note Taker",
+        "image": "./images/note-thumb.png"
+    }
+]
