@@ -1,0 +1,22 @@
+h1 {
+font-family: forma-djr-display, sans-serif;
+font-weight: 600;
+font-style: normal;
+letter-spacing: -2px;
+font-size: 72px;
+color: #1e2a31;
+}
+.link {
+    font-family: helvetica-light;
+    color: #1e2a31;
+    margin: 30px;
+    font-size: 14px;
+    text-decoration: none;
+}
+a:link {
+    color: #1e2a31;
+    text-decoration: none;
+}
+a:hover {
+    color: #c44051;
+}
