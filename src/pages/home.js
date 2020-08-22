@@ -69,7 +69,7 @@ const styles = {
 
 function Home() {
   return (
-    <div style={styles.imageStyle} class="img-fluid mt-2">
+    <div style={styles.imageStyle} className="img-fluid mt-2">
       <div>
         <h1 style={styles.showSytle}>Show</h1>
         <h2 style={styles.h2Style}>you what I</h2>
