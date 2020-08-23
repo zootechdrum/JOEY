@@ -2,31 +2,43 @@
     {
         "id": 1,
         "name": "Lyrics to Go",
-        "image": "./images/lyrics-thumb.png"
+        "image": "./images/lyrics-thumb.png",
+        "repo": "https://github.com/yuliatikhonova/Lyrics-To-Go",
+        "url": "https://yuliatikhonova.github.io/Lyrics-To-Go/"
     },
     {
         "id": 2,
         "name": "Tuk Tuk Travel Blog",
-        "image": "./images/tuktuk-thumb.png"
+        "image": "./images/tuktuk-thumb.png",
+        "repo": "https://github.com/joeyr1984/TukTuk",
+        "url": "https://murmuring-sierra-02687.herokuapp.com"
     },
     {
         "id": 3,
         "name": "Hive Employee Directory",
-        "image": "./images/hive-thumb.png"
+        "image": "./images/hive-thumb.png",
+        "repo": "https://github.com/joeyr1984/Hive-Employee-Directory",
+        "url": "https://joeyr1984.github.io/Hive-Employee-Directory/"
     },
     {
         "id": 4,
         "name": "Char Burger Blog",
-        "image": "./images/char-thumb.png"
+        "image": "./images/char-thumb.png",
+        "repo": "https://github.com/joeyr1984/Burger",
+        "url": "https://quiet-bastion-68986.herokuapp.com/"
     },
     {
         "id": 5,
         "name": "Dewey Web Dev Resources",
-        "image": "./images/test-thumb.png"
+        "image": "./images/test-thumb.png",
+        "repo": "https://github.com/joeyr1984/Trivia-game",
+        "url": "https://joeyr1984.github.io/Trivia-game/"
     },
     {
         "id": 6,
         "name": "Note Taker",
-        "image": "./images/note-thumb.png"
+        "image": "./images/note-thumb.png",
+        "repo": "https://github.com/joeyr1984/NOTE-TAKER",
+        "url": "https://gentle-island-19424.herokuapp.com/"
     }
 ]
