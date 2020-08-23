@@ -6,8 +6,10 @@ const styles = {
     backgroundImage: `url(${Dome})`,
     backgroundRepeat: "no-repeat",
     //width: 1228,
-    height: 623,
-    marginLeft: 234
+    height: 648,
+    marginLeft: 234,
+    paddingLeft: 42,
+    paddingTop: 24,
 
   },
   showSytle: {

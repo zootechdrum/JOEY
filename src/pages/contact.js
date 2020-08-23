@@ -6,7 +6,8 @@ const styles = {
         backgroundImage: `url(${Desk})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
-        height: "85vh"
+        height: 652
+        
     },
     formArea: {
         margin: "auto",
@@ -29,7 +30,7 @@ const styles = {
 
 const contact = () => {
     return (
-        <div style={styles.imageStyle}>
+        <div style={styles.imageStyle} class="img-fluid mt-1">
             <div style={styles.formArea}>
                 <form class="w-75">
                     <div class="form-group">
