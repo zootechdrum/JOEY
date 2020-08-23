@@ -5,7 +5,7 @@ import work from "./pages/work";
 import about from "./pages/about";
 import contact from "./pages/contact";
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer/Footer";
+//import Footer from "./components/Footer/Footer";
 import Wrapper from "./components/Wrapper";
 
 
@@ -24,7 +24,7 @@ class App extends Component {
           <Route exact path="/about" component={about} />
           <Route exact path="/contact" component={contact} />
         </Wrapper>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </Router>
   );
