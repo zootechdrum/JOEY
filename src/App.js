@@ -33,6 +33,6 @@ class App extends Component {
     );
   }
 }
-//text is wrongsss
+//text is wrongssss
 
 export default App;
