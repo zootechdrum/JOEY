@@ -11,13 +11,9 @@ import Wrapper from "./components/Wrapper";
 class App extends Component {
   render() {
     return (
-      <Router>
-        <div>
-          <Navbar />
-          <Wrapper></Wrapper>
-          {/* <Footer /> */}
-        </div>
-      </Router>
+      <Wrapper>
+        <Navbar />
+      </Wrapper>
     );
   }
 }
