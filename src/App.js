@@ -8,27 +8,18 @@ import Navbar from "./components/Navbar";
 //import Footer from "./components/Footer/Footer";
 import Wrapper from "./components/Wrapper";
 
-
-
 class App extends Component {
-
   render() {
-
-  return (
-    <Router>
-      <div>
-        <Navbar />
-        <Wrapper>
-          <Route exact path="/" component={home} />
-          <Route exact path="/work" component={work} />
-          <Route exact path="/about" component={about} />
-          <Route exact path="/contact" component={contact} />
-        </Wrapper>
-        {/* <Footer /> */}
-      </div>
-    </Router>
-  );
-}
+    return (
+      <Router>
+        <div>
+          <Navbar />
+          <Wrapper></Wrapper>
+          {/* <Footer /> */}
+        </div>
+      </Router>
+    );
+  }
 }
 
 export default App;
