@@ -15,7 +15,7 @@ class App extends Component {
       <HashRouter basename="/">
         <Router>
           <div>
-            <Navbar />
+            {/* <Navbar /> */}
             <Wrapper>
               <Route
                 exact
