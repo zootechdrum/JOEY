@@ -16,17 +16,7 @@ class App extends Component {
         <Router>
           <div>
             <Navbar />
-            <Wrapper>
-              <Route
-                exact
-                path={process.env.PUBLIC_URL + "/"}
-                component={home}
-              />
-              <Route exact path="/work" component={work} />
-              <Route exact path="/about" component={about} />
-              <Route exact path="/contact" component={contact} />
-            </Wrapper>
-            {/* <Footer /> */}
+            <Wrapper></Wrapper>
           </div>
         </Router>
       </HashRouter>
