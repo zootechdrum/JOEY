@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import { HashRouter } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
+import { Router, Route } from "react-router-dom";
 import home from "./pages/home";
 import work from "./pages/work";
 import about from "./pages/about";
@@ -12,10 +12,11 @@ import Wrapper from "./components/Wrapper";
 class App extends Component {
   render() {
     return (
-      <HashRouter basename="/">
+      // eslint-disable-next-line react/jsx-no-undef
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Router>
           <div>
-            {/* <Navbar /> */}
+            <Navbar />
             <Wrapper>
               <Route
                 exact
@@ -26,10 +27,9 @@ class App extends Component {
               <Route exact path="/about" component={about} />
               <Route exact path="/contact" component={contact} />
             </Wrapper>
-            {/* <Footer /> */}
           </div>
         </Router>
-      </HashRouter>
+      </BrowserRouter>
     );
   }
 }
